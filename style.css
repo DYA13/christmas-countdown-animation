@@ -1,0 +1,137 @@
+body {
+    background-image: url(Santa.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(211, 12, 12, 0.959);
+}
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+
+
+
+.heading {
+display: flex;
+justify-content: center;
+}
+
+h1 {
+    font-size: 60px;
+    background-color: rgba(251,248,249,0.9);
+    padding: 20px;
+    border: 3px solid black;
+    font-family: 'Montserrat', sans-serif;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.christmas {
+    background-color: rgba(251,248,249,0.82);
+    height: 300px;
+    width: 200px;
+    margin-top: 50px;
+    border: 3px solid black;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+.days, .hours, .minutes, .seconds {
+    font-family: 'Montserrat', sans-serif;
+font-size: 40px;
+}
+button {
+    margin-left: 100px;
+    border: none;
+
+}
+.red {
+    font-size: 60px;
+    border: none;
+    font-family: 'Staatliches', cursive;
+    color: red;
+}
+
+
+.play {
+    width: 100px;
+    height: 100px;
+    background-image: url(play.png);
+    background-size: contain;
+}
+
+.pause  {
+    width: 100px;
+    height: 100px;
+    background-image: url(pause.png);
+    background-size: contain;
+}
+
+
+  
+  
+
+@media all and (max-width: 800px){
+    h1 {
+        font-size: 40px;
+    }
+    .christmas {
+        width: 150px;
+        height: 250px;
+     
+    }
+    .days, .hours, .minutes, .seconds {
+font-size: 35px;
+    }
+    h3 {
+font-size: 25px;
+    }
+  
+}
+@media all and (max-width: 500px){
+    h1 {
+        font-size: 23px;
+        text-align: center;
+    }
+  
+    #myButton {
+        margin-left:  10px;
+       
+    }
+    body {
+    background-image: url(Santa.jpeg);   
+  background-position: center;
+  background-color: red;
+    }
+    .christmas {
+        width: 66px;
+        height: 130px;
+     
+    }
+    .days, .hours, .minutes, .seconds {
+        font-size: 20px;
+    }
+    h3 {
+        font-size: 10px;
+    }
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+      
+    }
+    
+
+
+    
+}
